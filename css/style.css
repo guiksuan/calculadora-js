@@ -4,7 +4,11 @@
     box-sizing: border-box;
     font-family: consolas;
 }
-body{
+.body{
+    background: #edf1f4;
+}
+
+.cal{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,3 +90,106 @@ body{
 .calculadora .buttons span#clear:active, .calculadora .buttons span#plus:active, .calculadora .buttons span#equal:active{
     box-shadow: 5px 5px 10px rgba(0,0,0,0.1), -5px -5px 10px #fff, inset 5px 5px 10px rgba(0,0,0,0.1);
 }
+
+.raiz {
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #f09494;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: -20vh;
+}
+
+.potencia {   
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #f09494;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 10vh;
+}
+
+.bhaskara {
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #f09494;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 0vh;
+}
+
+.area { 
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #f09494;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left:35vw;
+    margin-top: -10vh;
+}
+
+.quatro {
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #f09494;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: -20vh;
+}
+.quatro2 {
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #f09494;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 10vh;
+}
+.quatro3 {
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #f09494;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: -10vh;
+}
+
+.quatro4 {
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    min-height: 36px;
+    min-width: 120px;
+    color: #f09494;
+    border: 1px solid #111;
+    position: absolute;
+    margin-left: 35vw;
+    margin-top: 0vh;
+}
+

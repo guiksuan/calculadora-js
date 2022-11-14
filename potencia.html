@@ -12,14 +12,14 @@
 </head>
 <body>
     <center>
-    <h1 class="text1">Quatro operações basicas</h1>
+    <h1 class="text1">Potência</h1>
 </center>
 
 <div class="cal">
-    <a href="./potencia.html"><button class="potencia">aⁿ</button></a>
     <a href="./raiz.html"><button class="raiz">²√x</button></a>
     <a href="./area.html"><button class="area">b.h/2</button></a>
     <a href="./bhaskara.html"><button class="bhaskara">ax²+bx+c=0</button></a>
+    <a href="./index.html"><button class="quatro2">calculadora</button></a>
 
     <div class="calculadora">
         <div class="buttons">
@@ -45,6 +45,14 @@
         </div>
     </div>
 </div>
+
+<input type="text" id="base">
+    <input type="text" id="expoente">
+    <div class="equals-div">
+    <button class="equals-button-power" onclick="power()"><h1 class="equals-sign">=</h1></button>
+    <div class="resultPower"><p id="result" class="result-ppage-text"></p></div>
+    </div>
+    
     <script src="js/calculo.js" type="text/javascript"></script>
 </body>
 </html>

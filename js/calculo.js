@@ -17,3 +17,18 @@ for(let i = 0; i < btn.length; i++){
         }
     })
 }
+
+function power(){
+
+    let buttons = document.querySelector('.buttons');
+    let btn = document.querySelectorAll('span');
+    let value = document.getElementById('value');
+
+    base = document.getElementById("base").value;
+
+    expoente = document.getElementById("expoente").value;
+
+    result = eval(Math.pow(parseInt(base), parseInt(expoente)));
+
+    document.getElementById("result").innerHTML = result;
+}
