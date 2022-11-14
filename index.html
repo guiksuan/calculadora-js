@@ -5,21 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>Calculadora</title>
 </head>
 <body>
-    <input type="text" id="num1" size="2"><br>
-    <input type="text" id="num2" size="2"><br>
-    <input type="radio" name="opt" value="+">+
-    <input type="radio" name="opt" value="-">-
-    <input type="radio" name="opt" value="*">*
-    <input type="radio" name="opt" value="/">/
-    <br>
-    <button onclick="Calculadora()">Calcular</button>
-
-    <h3>Resultado:</h3>
-        <p id="mostrar-resultado">
-            <!--Mostrar o resultado-->
-        </p>
+    <div class="calculadora">
+        <div class="buttons">
+            <h2 id="value">123</h2>
+            <span id="clear">Clear</span>
+            <span>aⁿ</span>
+            <span>²√x</span>
+            <span>b.h/2</span>
+            <span>△</span>
+            <span>/</span>
+            <span>*</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span>-</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span id="plus">+</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>0</span>
+            <span>.</span>
+            <span id="equal">=</span>
+        </div>
+    </div>
 </body>
 </html>
