@@ -61,11 +61,28 @@ body{
 }
 .calculadora .buttons span:active{
     box-shadow: inset 5px 5px 10px rgba(0,0,0,0.1), -5px -5px 10px #fff;
-    color: #f44336;
 }
 
 .calculadora .buttons span#clear{
     grid-column: span 2;
     background-color: #f44336;
     color: #fff;
+    border: 2px solid #edf1f4;
+}
+
+.calculadora .buttons span#plus{
+    grid-row: span 2;
+    background-color: #31a935;
+    color: #fff;
+    border: 2px solid #edf1f4;
+}
+.calculadora .buttons span#equal{
+    grid-row: span 2;
+    background-color: #2196f3;
+    color: #fff;
+    border: 2px solid #edf1f4;
+}
+
+.calculadora .buttons span#clear:active, .calculadora .buttons span#plus:active, .calculadora .buttons span#equal:active{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1), -5px -5px 10px #fff, inset 5px 5px 10px rgba(0,0,0,0.1);
 }
